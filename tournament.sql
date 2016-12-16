@@ -63,21 +63,21 @@ CREATE VIEW v_pairings AS
 
 
 /* Test data */
-INSERT INTO Players VALUES ('Christian');
-INSERT INTO Players VALUES ('Ragnhild');
-INSERT INTO Players VALUES ('Henrik');
-INSERT INTO Players VALUES ('Line');
-INSERT INTO Players VALUES ('Hans Christian');
-INSERT INTO Players VALUES ('Inger Elisabeth');
-INSERT INTO Players VALUES ('Tone');
-INSERT INTO Players VALUES ('Jan');
+-- INSERT INTO Players VALUES ('Player1');
+-- INSERT INTO Players VALUES ('Player2');
+-- INSERT INTO Players VALUES ('Player3');
+-- INSERT INTO Players VALUES ('Player4');
+-- INSERT INTO Players VALUES ('Player5');
+-- INSERT INTO Players VALUES ('Player6');
+-- INSERT INTO Players VALUES ('Player7');
+-- INSERT INTO Players VALUES ('Player8');
 
-INSERT INTO Matches VALUES (1, 2);
-INSERT INTO Matches VALUES (3, 4);
-INSERT INTO Matches VALUES (5, 6);
-INSERT INTO Matches VALUES (7, 8);
+-- INSERT INTO Matches VALUES (1, 2);
+-- INSERT INTO Matches VALUES (3, 4);
+-- INSERT INTO Matches VALUES (5, 6);
+-- INSERT INTO Matches VALUES (7, 8);
 
-INSERT INTO Matches VALUES (1, 3);
-INSERT INTO Matches VALUES (5, 7);
-INSERT INTO Matches VALUES (2, 4);
-INSERT INTO Matches VALUES (8, 6);
+-- INSERT INTO Matches VALUES (1, 3);
+-- INSERT INTO Matches VALUES (5, 7);
+-- INSERT INTO Matches VALUES (2, 4);
+-- INSERT INTO Matches VALUES (8, 6);
