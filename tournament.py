@@ -39,8 +39,7 @@ def countPlayers():
 
 def registerPlayer(name):
     """Adds a player to the tournament database.
-    The database assigns a unique serial id number for the player.  (This
-    should be handled by your SQL database schema, not in your Python code.)
+    The database assigns a unique serial id number for the player.
     Args:
       name: the player's full name (need not be unique).
     """
