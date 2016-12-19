@@ -7,5 +7,12 @@ This is a Python module using the PostgreSQL database that keeps track of player
 
 #How to run
 - Set up a Virtual Machine with VirtualBox and Vagrant. Use the [configuration from this location](https://d17h27t6h515a5.cloudfront.net/topher/2016/December/58488015_fsnd-virtual-machine/fsnd-virtual-machine.zip).
-- Download the files in this repo, and save them to the shared vagrant folder.
-- Run the tournament_test.py from the VM.
+- Download the files in this repo, and save them to the shared vagrant folder
+- Using your preferred terminal (I recommend Git Bash for Windows), navigate to the shared vagrant folder
+- Start the VM by typing "vagrant up"
+- Log into the VM by typing "vagrant ssh"
+- Import the databse schema using "psql" application by typing:
+	- psql
+	- \i tournament.sql
+	- \q
+- Execute the test module by invoking the python script: "python tournament_test.py"
